@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbgoonBiotech.Application", "AbgoonBiotech.Application", "{59031856-4C72-4FAC-9CF2-47E220CA50D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbgoonBiotech.Infra.Data", "AbgoonBiotech.Infra.Data", "{ADFE664A-39DD-4215-BD43-0DA0C9EC92AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbgoonBiotech.Domain", "AbgoonBiotech.Domain", "{E8C46713-6F68-4037-8A82-867D0EB55821}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbgoonBiotech.Presentation", "AbgoonBiotech.Presentation", "{1E5AFAE2-AC3A-4C40-A7A5-A070BA98B9AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbgoonBiotech.Application", "AbgoonBiotech.Application\AbgoonBiotech.Application.csproj", "{A7738972-B7DA-49E1-8185-C11AF0D4F703}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbgoonBiotech.Domain", "AbgoonBiotech.Domain\AbgoonBiotech.Domain.csproj", "{61578681-A07F-4C98-8FBB-7F4AD472C409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbgoonBiotech.Infra.Data", "AbgoonBiotech.Infra.Data\AbgoonBiotech.Infra.Data.csproj", "{3B91CCE2-47C6-47AA-B3D6-9BBA5F73058E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbgoonBiotech.Infra.Ioc", "AbgoonBiotech.Infra.Ioc", "{5627B214-163A-4097-8E16-6FC648D58D19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbgoonBiotech.Infra.Ioc", "AbgoonBiotech.Infra.Ioc\AbgoonBiotech.Infra.Ioc.csproj", "{9F888121-1F32-4B92-859A-9C7A8378D7D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7738972-B7DA-49E1-8185-C11AF0D4F703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7738972-B7DA-49E1-8185-C11AF0D4F703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7738972-B7DA-49E1-8185-C11AF0D4F703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7738972-B7DA-49E1-8185-C11AF0D4F703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61578681-A07F-4C98-8FBB-7F4AD472C409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61578681-A07F-4C98-8FBB-7F4AD472C409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61578681-A07F-4C98-8FBB-7F4AD472C409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61578681-A07F-4C98-8FBB-7F4AD472C409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B91CCE2-47C6-47AA-B3D6-9BBA5F73058E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B91CCE2-47C6-47AA-B3D6-9BBA5F73058E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B91CCE2-47C6-47AA-B3D6-9BBA5F73058E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B91CCE2-47C6-47AA-B3D6-9BBA5F73058E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F888121-1F32-4B92-859A-9C7A8378D7D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F888121-1F32-4B92-859A-9C7A8378D7D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F888121-1F32-4B92-859A-9C7A8378D7D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F888121-1F32-4B92-859A-9C7A8378D7D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7738972-B7DA-49E1-8185-C11AF0D4F703} = {59031856-4C72-4FAC-9CF2-47E220CA50D6}
+		{61578681-A07F-4C98-8FBB-7F4AD472C409} = {E8C46713-6F68-4037-8A82-867D0EB55821}
+		{3B91CCE2-47C6-47AA-B3D6-9BBA5F73058E} = {ADFE664A-39DD-4215-BD43-0DA0C9EC92AD}
+		{9F888121-1F32-4B92-859A-9C7A8378D7D3} = {5627B214-163A-4097-8E16-6FC648D58D19}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E16A2F9-653E-42A7-9DAE-9F8E3322DFDB}
+	EndGlobalSection
+EndGlobal
