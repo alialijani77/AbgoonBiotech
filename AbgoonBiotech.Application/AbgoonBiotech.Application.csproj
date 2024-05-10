@@ -14,4 +14,8 @@
     <Folder Include="Security\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AbgoonBiotech.Infra.Data\AbgoonBiotech.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>

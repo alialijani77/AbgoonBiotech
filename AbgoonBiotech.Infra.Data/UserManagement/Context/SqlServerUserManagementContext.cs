@@ -12,6 +12,7 @@ namespace AbgoonBiotech.Infra.Data.UserManagement.Context
 		private readonly ILoggerFactory _loggerFactory;
 		private static int _commandTimeout;
 
+		//Add-Migration Init_DB -Context SqlServerUserManagementContext -OutputDir 'UserManagement\Migrations'
 		public SqlServerUserManagementContext(string connectionstring, ILoggerFactory loggerFactory, int commandTimeout = 60)
 		{
 			_connectionstring = connectionstring;

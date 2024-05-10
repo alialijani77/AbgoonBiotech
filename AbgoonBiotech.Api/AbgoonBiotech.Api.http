@@ -1,0 +1,6 @@
+@AbgoonBiotech.Api_HostAddress = http://localhost:5266
+
+GET {{AbgoonBiotech.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
